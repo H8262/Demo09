@@ -36,7 +36,8 @@ namespace T3
             int karmi = int.Parse(karmiTextBox.Text);
 
             pintaTextBox.Text = Convert.ToString(leveys * korkeus);
-
+            lasiTextBox.Text = Convert.ToString((leveys - (karmi * 2)) * ((korkeus - (karmi * 2))));
+            karminpTextBox.Text = Convert.ToString((leveys * 2) + (korkeus * 2));
         }
 
     }
